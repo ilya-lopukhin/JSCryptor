@@ -1,3 +1,5 @@
 (function () {
-  module.exports = require('./lib/RNCryptor');
+  const lib = require('./lib/RNCryptor')
+  module.exports = lib;
+  window.RNCryptor = lib;
 })();
